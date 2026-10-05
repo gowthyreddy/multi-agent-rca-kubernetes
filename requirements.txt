@@ -1,0 +1,7 @@
+openai==2.44.0
+pydantic==2.11.7
+numpy==1.26.4
+python-dotenv==1.1.1
+requests==2.32.4
+langgraph==1.2.8
+streamlit==1.59.1

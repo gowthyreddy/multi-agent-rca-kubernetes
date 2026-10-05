@@ -1,0 +1,65 @@
+{
+  "n": 30,
+  "keep_drop_agreement": 25,
+  "kept_by_both": 25,
+  "root_cause_correct": 25,
+  "root_cause_partially": 0,
+  "root_cause_wrong": 0,
+  "category_agreement": 24,
+  "disagreements": [
+    {
+      "ticket_id": "gh:kubernetes/kubernetes#132603",
+      "llm": "drop: not a real bug",
+      "human": "keep",
+      "root_cause": "correct",
+      "human_category": "logic_error",
+      "llm_category": "logic_error",
+      "note": ""
+    },
+    {
+      "ticket_id": "gh:kubernetes/kubernetes#131497",
+      "llm": "drop: not a real bug",
+      "human": "keep",
+      "root_cause": "correct",
+      "human_category": "missing_validation_or_nil_check",
+      "llm_category": "missing_validation_or_nil_check",
+      "note": ""
+    },
+    {
+      "ticket_id": "gh:kubernetes/kubernetes#132582",
+      "llm": "drop: not a real bug",
+      "human": "keep",
+      "root_cause": "correct",
+      "human_category": "missing_validation_or_nil_check",
+      "llm_category": "incorrect_config_or_default",
+      "note": ""
+    },
+    {
+      "ticket_id": "gh:kubernetes/kubernetes#126921",
+      "llm": "keep",
+      "human": "keep",
+      "root_cause": "correct",
+      "human_category": "logic_error",
+      "llm_category": "state_or_cache_inconsistency",
+      "note": ""
+    },
+    {
+      "ticket_id": "gh:kubernetes/kubernetes#130271",
+      "llm": "drop: not a real bug",
+      "human": "keep",
+      "root_cause": "correct",
+      "human_category": "test_or_ci_issue",
+      "llm_category": "incorrect_config_or_default",
+      "note": ""
+    },
+    {
+      "ticket_id": "gh:kubernetes/kubernetes#103587",
+      "llm": "drop: not a real bug",
+      "human": "keep",
+      "root_cause": "correct",
+      "human_category": "missing_validation_or_nil_check",
+      "llm_category": "incorrect_config_or_default",
+      "note": ""
+    }
+  ]
+}

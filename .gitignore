@@ -1,0 +1,11 @@
+# secrets
+.env
+
+# local environment
+.venv/
+__pycache__/
+.claude/
+
+# large / regenerable / local-only data
+data/k8s.git/
+data/feedback.jsonl
