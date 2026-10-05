@@ -1,4 +1,4 @@
-# K8s Incident Copilot
+# Multi-Agent RCA for Kubernetes
 
 A multi-agent root-cause analysis (RCA) system for real Kubernetes bug reports. Given a GitHub issue, it reads the Kubernetes source **as it was when the issue was filed**, retrieves similar past incidents, and writes a root-cause diagnosis in which every claim cites its evidence. An engineer then approves, edits or rejects the diagnosis in a Streamlit UI.
 
